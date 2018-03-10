@@ -1,0 +1,46 @@
+@import 'style.css';
+
+html {
+	background: url(../images/main3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+main {
+	padding: 100px 100px 0px 100px;
+	text-align: center;
+}
+
+header a {
+	color: white;
+}
+
+.name {
+	color: white;
+	width: 100%;
+}
+
+.name img {
+	width: 500px;
+	height: auto;
+}
+
+.subtitle {
+	margin: 50px 0px;
+	font-family: 'Crimson Text', serif;
+}
+
+.subtitle a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	transition: all 2.3s;
+	padding: 5px;
+}
+
+.subtitle a:hover {
+	border: 1px solid white;
+	padding: 15px;
+}

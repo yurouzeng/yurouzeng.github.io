@@ -1,0 +1,84 @@
+@import 'style.css';
+
+html {
+	background-color: black;
+	color: white;
+}
+
+main {
+	width: 100%;
+	padding: 70px 0px 0px 0px;
+	margin: 0px -7px 0px 0px;
+}
+
+header a {
+	color: white;
+}
+
+nav a:hover {
+	font-weight: bold;
+	color: #C69134;
+}
+
+.view {
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	width: 25.2%;
+	margin: -2px -3px;
+}
+
+.view .mask {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+}
+
+.view img {
+	display: block;
+	position: relative;
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 1s ease;
+}
+
+.view h2 {
+	font-family: font-family: 'Crimson Text', serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: white;
+	margin: 30px;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 4px black;
+}
+
+.view img {
+	transition: all 0.6s ease-in-out;
+}
+
+.view:hover img {
+	filter: grayscale(0);
+}
+
+.view .mask {
+	transition: all 0.5s linear;
+	opacity: 0;
+}
+
+.view h2 {
+	transition: all 0.5s linear;
+	transform: scale(0);
+	opacity: 0;
+}
+
+.view:hover .mask {
+    opacity: 1;
+}
+
+.view:hover h2 {
+    transform: scale(1);
+    opacity: 1;
+}
