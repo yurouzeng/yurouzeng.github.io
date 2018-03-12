@@ -1,8 +1,8 @@
 @import 'style.css';
 
 html {
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 main {
@@ -12,12 +12,7 @@ main {
 }
 
 header a {
-	color: white;
-}
-
-nav a:hover {
-	font-weight: bold;
-	color: #C69134;
+	color: black;
 }
 
 .view {
