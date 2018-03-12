@@ -1,3 +1,6 @@
-Portfolio website for midterm assignment.
+# Yurou (Maggie) Zeng
+Code for midterm portfolio website. 
 
-https://yurouzeng.github.io/main.html
+Live site can be accessed [here](https://yurouzeng.github.io/main.html).
+
+Documentation post is [here](https://maggiewebdev.wordpress.com/2018/03/10/midterm-documentation/).
